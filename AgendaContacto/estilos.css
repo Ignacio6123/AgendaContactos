@@ -1,0 +1,90 @@
+*,
+::after,
+* ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+        'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgba(28, 24, 24, 0.822);
+}
+
+.agendaContactos {
+    height: 100vh;
+    width: 70vw;
+    margin: 32px auto;
+}
+
+.tituloAgendaContactos {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.datosContacto {
+    display: block;
+    display: flex;
+    width: 50%;
+    margin: 1rem auto;
+    flex-direction: column;
+}
+
+.datosContacto input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(28, 24, 24, 0.822);
+    color: white;
+    border-radius: 10px;
+}
+
+.datosContacto button {
+    background-color: rgb(80, 209, 41);
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 3rem;
+}
+
+.listadoContactos {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding:20px
+}
+
+.icono {
+    color: tomato;
+    cursor: pointer;
+}
+
+.mensajeVacio{
+color: red;
+text-transform: uppercase;
+text-align: center;
+margin: 10px;
+padding: 10px;
+}
